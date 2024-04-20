@@ -177,5 +177,5 @@ dig @1.1.1.1 _smtp._tls.mydomain.com txt
 should return a result similar to this one:
 
 ```
-_smtp._tls.mydomain.com.	3600	IN	TXT	"v=TSLRPTv1; rua=mailto:tls-reports@mydomain.com"
+_smtp._tls.mydomain.com.	3600	IN	TXT	"v=TLSRPTv1; rua=mailto:tls-reports@mydomain.com"
 ```
